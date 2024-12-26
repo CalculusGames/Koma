@@ -7,35 +7,60 @@ plugins {
 description = "Core API for Koma"
 
 kotlin {
+    withSourcesJar()
+
     jvm {
         compilations.all {
             compileJavaTaskProvider?.configure {
-                sourceCompatibility = "11"
-                targetCompatibility = "11"
+                sourceCompatibility = "17"
+                targetCompatibility = "17"
             }
         }
     }
     js {
         browser {
             testTask {
-                enabled = false
+                useMocha {
+                    timeout = "10m"
+                }
+            }
+        }
+        nodejs {
+            testTask {
+                useMocha {
+                    timeout = "10m"
+                }
             }
 
-            binaries.executable()
+            useCommonJs()
         }
-        nodejs()
+
+        binaries.executable()
+        generateTypeScriptDefinitions()
     }
 
     @OptIn(ExperimentalWasmDsl::class)
     wasmJs {
         browser {
             testTask {
-                enabled = false
+                useMocha {
+                    timeout = "10m"
+                }
+            }
+        }
+        nodejs {
+            testTask {
+                useMocha {
+                    timeout = "10m"
+                }
             }
 
-            binaries.executable()
+            useCommonJs()
         }
-        nodejs()
+
+
+        binaries.executable()
+        generateTypeScriptDefinitions()
     }
 
     mingwX64()
@@ -59,20 +84,26 @@ kotlin {
     watchosArm32()
     watchosArm64()
     watchosDeviceArm64()
+
+    sourceSets {
+        commonTest.dependencies {
+            implementation(kotlin("test"))
+        }
+    }
 }
 
 android {
-    compileSdk = 33
+    compileSdk = 34
     namespace = "xyz.calcugames.koma"
 
     compileOptions {
-        sourceCompatibility = JavaVersion.VERSION_11
-        targetCompatibility = JavaVersion.VERSION_11
+        sourceCompatibility = JavaVersion.VERSION_17
+        targetCompatibility = JavaVersion.VERSION_17
     }
 }
 
 java {
     toolchain {
-        languageVersion.set(JavaLanguageVersion.of(11))
+        languageVersion.set(JavaLanguageVersion.of(17))
     }
 }
