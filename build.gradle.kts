@@ -15,7 +15,8 @@ plugins {
 
 allprojects {
     group = "xyz.calcugames.koma"
-    version = "0.1.0"
+    val v = "0.1.0"
+    version = if (project.hasProperty("snapshot")) "$v-SNAPSHOT" else v
     description = "Kotlin Multiplatform Mathematics Library"
 
     apply<SigningPlugin>()
