@@ -1,0 +1,647 @@
+<!doctype html>
+<html class="no-js">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" charset="UTF-8">
+    <title>xyz.calcugames.koma.constants</title>
+<link href="../../images/logo-icon.svg" rel="icon" type="image/svg">    <script>var pathToRoot = "../../";</script>
+    <script>document.documentElement.classList.replace("no-js","js");</script>
+    <script>const storage = localStorage.getItem("dokka-dark-mode")
+    if (storage == null) {
+        const osDarkSchemePreferred = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches
+        if (osDarkSchemePreferred === true) {
+            document.getElementsByTagName("html")[0].classList.add("theme-dark")
+        }
+    } else {
+        const savedDarkMode = JSON.parse(storage)
+        if(savedDarkMode === true) {
+            document.getElementsByTagName("html")[0].classList.add("theme-dark")
+        }
+    }
+    </script>
+<script type="text/javascript" src="https://unpkg.com/kotlin-playground@1/dist/playground.min.js" async></script>
+<script type="text/javascript" src="../../scripts/sourceset_dependencies.js" async></script>
+<link href="../../styles/style.css" rel="Stylesheet">
+<link href="../../styles/main.css" rel="Stylesheet">
+<link href="../../styles/prism.css" rel="Stylesheet">
+<link href="../../styles/logo-styles.css" rel="Stylesheet">
+<link href="../../styles/font-jb-sans-auto.css" rel="Stylesheet">
+<link href="../../ui-kit/ui-kit.min.css" rel="Stylesheet">
+<script type="text/javascript" src="../../scripts/clipboard.js" async></script>
+<script type="text/javascript" src="../../scripts/navigation-loader.js" async></script>
+<script type="text/javascript" src="../../scripts/platform-content-handler.js" async></script>
+<script type="text/javascript" src="../../scripts/main.js" defer></script>
+<script type="text/javascript" src="../../scripts/prism.js" async></script>
+<script type="text/javascript" src="../../ui-kit/ui-kit.min.js" defer></script>
+<script type="text/javascript" src="../../scripts/symbol-parameters-wrapper_deferred.js" defer></script></head>
+<body>
+    <div class="root">
+    <nav class="navigation theme-dark" id="navigation-wrapper">
+<a class="library-name--link" href="../../index.html">
+                    koma
+            </a>        <button class="navigation-controls--btn navigation-controls--btn_toc ui-kit_mobile-only" id="toc-toggle" type="button">Toggle table of contents
+        </button>
+        <div class="navigation-controls--break ui-kit_mobile-only"></div>
+        <div class="library-version" id="library-version">0.1.0
+        </div>
+        <div class="navigation-controls">
+        <div class="filter-section filter-section_loading" id="filter-section">
+                <button class="platform-tag platform-selector common-like" data-active="" data-filter=":koma-core/commonMain">common</button>
+            <div class="dropdown filter-section--dropdown" data-role="dropdown" id="filter-section-dropdown">
+                <button class="button button_dropdown filter-section--dropdown-toggle" role="combobox" data-role="dropdown-toggle" aria-controls="platform-tags-listbox" aria-haspopup="listbox" aria-expanded="false" aria-label="Toggle source sets"></button>
+                <ul role="listbox" id="platform-tags-listbox" class="dropdown--list" data-role="dropdown-listbox">
+                    <div class="dropdown--header"><span>Platform filter</span>
+                        <button class="button" data-role="dropdown-toggle" aria-label="Close platform filter">
+                            <i class="ui-kit-icon ui-kit-icon_cross"></i>
+                        </button>
+                    </div>
+                        <li role="option" class="dropdown--option platform-selector-option common-like" tabindex="0">
+                            <label class="checkbox">
+                                <input type="checkbox" class="checkbox--input" id=":koma-core/commonMain" data-filter=":koma-core/commonMain">
+                                <span class="checkbox--icon"></span>
+                                common
+                            </label>
+                        </li>
+                </ul>
+                <div class="dropdown--overlay"></div>
+            </div>
+        </div>
+            <button class="navigation-controls--btn navigation-controls--btn_theme" id="theme-toggle-button" type="button">Switch theme
+            </button>
+            <div class="navigation-controls--btn navigation-controls--btn_search" id="searchBar" role="button">Search in
+                API
+            </div>
+        </div>
+    </nav>
+        <div id="container">
+            <div class="sidebar" id="leftColumn">
+                <div class="dropdown theme-dark_mobile" data-role="dropdown" id="toc-dropdown">
+                    <ul role="listbox" id="toc-listbox" class="dropdown--list dropdown--list_toc-list" data-role="dropdown-listbox">
+                        <div class="dropdown--header">
+                            <span>
+                                    koma
+                            </span>
+                            <button class="button" data-role="dropdown-toggle" aria-label="Close table of contents">
+                                <i class="ui-kit-icon ui-kit-icon_cross"></i>
+                            </button>
+                        </div>
+                        <div class="sidebar--inner" id="sideMenu"></div>
+                    </ul>
+                    <div class="dropdown--overlay"></div>
+                </div>
+            </div>
+            <div id="main">
+<div class="main-content" data-page-type="package" id="content" pageids="koma-core::xyz.calcugames.koma.constants////PointingToDeclaration//1812980877">
+  <div class="breadcrumbs"><a href="../index.html">koma-core</a><span class="delimiter">/</span><span class="current">xyz.calcugames.koma.constants</span></div>
+  <div class="cover ">
+    <h1 class="cover"><span><span>Package-level</span></span> <span><span>declarations</span></span></h1>
+  </div>
+  <div class="tabbedcontent">
+    <div class="tabs-section" tabs-section="tabs-section"><button class="section-tab" data-active="" data-togglable="PROPERTY,EXTENSION_PROPERTY">Properties</button></div>
+    <div class="tabs-section-body">
+      <div data-togglable="PROPERTY">
+        <h2 class="">Properties</h2>
+        <div class="table"><a data-name="-2096120978%2FProperties%2F1812980877" anchor-label="C_TO_F" id="-2096120978%2FProperties%2F1812980877" data-filterable-set=":koma-core/commonMain"></a>
+          <div class="table-row" data-filterable-current=":koma-core/commonMain" data-filterable-set=":koma-core/commonMain">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-c_-t-o_-f.html"><span>C_</span><wbr><span>TO_</span><wbr><span>F</span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-2096120978%2FProperties%2F1812980877"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":koma-core/commonMain"><div class="symbol monospace"><span class="token keyword">const </span><span class="token keyword">val </span><a href="-c_-t-o_-f.html">C_TO_F</a><span class="token operator">: </span><a href="https://kotlinlang.org/api/core/kotlin-stdlib/kotlin/-double/index.html">Double</a><span class="token operator"> = </span><span class="token constant">1.8</span></div><div class="brief "><p class="paragraph">Represents the ratio of a degree Celsius to a degree Fahrenheit.</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="1126470936%2FProperties%2F1812980877" anchor-label="CM_TO_IN" id="1126470936%2FProperties%2F1812980877" data-filterable-set=":koma-core/commonMain"></a>
+          <div class="table-row" data-filterable-current=":koma-core/commonMain" data-filterable-set=":koma-core/commonMain">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-c-m_-t-o_-i-n.html"><span>CM_</span><wbr><span>TO_</span><wbr><span>IN</span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1126470936%2FProperties%2F1812980877"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":koma-core/commonMain"><div class="symbol monospace"><span class="token keyword">const </span><span class="token keyword">val </span><a href="-c-m_-t-o_-i-n.html">CM_TO_IN</a><span class="token operator">: </span><a href="https://kotlinlang.org/api/core/kotlin-stdlib/kotlin/-double/index.html">Double</a><span class="token operator"> = </span><span class="token constant">0.393701</span></div><div class="brief "><p class="paragraph">Represents the ratio of a centimeter to an inch.</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-1683281427%2FProperties%2F1812980877" anchor-label="D_TO_H" id="-1683281427%2FProperties%2F1812980877" data-filterable-set=":koma-core/commonMain"></a>
+          <div class="table-row" data-filterable-current=":koma-core/commonMain" data-filterable-set=":koma-core/commonMain">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-d_-t-o_-h.html"><span>D_</span><wbr><span>TO_</span><wbr><span>H</span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1683281427%2FProperties%2F1812980877"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":koma-core/commonMain"><div class="symbol monospace"><span class="token keyword">const </span><span class="token keyword">val </span><a href="-d_-t-o_-h.html">D_TO_H</a><span class="token operator">: </span><a href="https://kotlinlang.org/api/core/kotlin-stdlib/kotlin/-int/index.html">Int</a><span class="token operator"> = </span><span class="token constant">24</span></div><div class="brief "><p class="paragraph">Represents the ratio of a day to an hour.</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-1217984322%2FProperties%2F1812980877" anchor-label="D_TO_W" id="-1217984322%2FProperties%2F1812980877" data-filterable-set=":koma-core/commonMain"></a>
+          <div class="table-row" data-filterable-current=":koma-core/commonMain" data-filterable-set=":koma-core/commonMain">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-d_-t-o_-w.html"><span>D_</span><wbr><span>TO_</span><wbr><span>W</span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1217984322%2FProperties%2F1812980877"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":koma-core/commonMain"><div class="symbol monospace"><span class="token keyword">const </span><span class="token keyword">val </span><a href="-d_-t-o_-w.html">D_TO_W</a><span class="token operator">: </span><a href="https://kotlinlang.org/api/core/kotlin-stdlib/kotlin/-double/index.html">Double</a><span class="token operator"> = </span><span class="token constant">0.14285714285714</span></div><div class="brief "><p class="paragraph">Represents the ratio of a day to a week.</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="1502299593%2FProperties%2F1812980877" anchor-label="E" id="1502299593%2FProperties%2F1812980877" data-filterable-set=":koma-core/commonMain"></a>
+          <div class="table-row" data-filterable-current=":koma-core/commonMain" data-filterable-set=":koma-core/commonMain">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-e.html"><span><span>E</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1502299593%2FProperties%2F1812980877"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":koma-core/commonMain"><div class="symbol monospace"><span class="token keyword">const </span><span class="token keyword">val </span><a href="-e.html">E</a><span class="token operator">: </span><a href="https://kotlinlang.org/api/core/kotlin-stdlib/kotlin/-double/index.html">Double</a><span class="token operator"> = </span><span class="token constant">2.718281828459045</span></div><div class="brief "><p class="paragraph">Represents <code class="lang-kotlin">e</code>, the base of the natural logarithm.</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-1136780588%2FProperties%2F1812980877" anchor-label="F_TO_C" id="-1136780588%2FProperties%2F1812980877" data-filterable-set=":koma-core/commonMain"></a>
+          <div class="table-row" data-filterable-current=":koma-core/commonMain" data-filterable-set=":koma-core/commonMain">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-f_-t-o_-c.html"><span>F_</span><wbr><span>TO_</span><wbr><span>C</span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1136780588%2FProperties%2F1812980877"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":koma-core/commonMain"><div class="symbol monospace"><span class="token keyword">const </span><span class="token keyword">val </span><a href="-f_-t-o_-c.html">F_TO_C</a><span class="token operator">: </span><a href="https://kotlinlang.org/api/core/kotlin-stdlib/kotlin/-double/index.html">Double</a><span class="token operator"> = </span><span class="token constant">0.55555555555556</span></div><div class="brief "><p class="paragraph">Represents the ratio of a degree Fahrenheit to a degree Celsius.</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-826582518%2FProperties%2F1812980877" anchor-label="F_TO_M" id="-826582518%2FProperties%2F1812980877" data-filterable-set=":koma-core/commonMain"></a>
+          <div class="table-row" data-filterable-current=":koma-core/commonMain" data-filterable-set=":koma-core/commonMain">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-f_-t-o_-m.html"><span>F_</span><wbr><span>TO_</span><wbr><span>M</span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-826582518%2FProperties%2F1812980877"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":koma-core/commonMain"><div class="symbol monospace"><span class="token keyword">const </span><span class="token keyword">val </span><a href="-f_-t-o_-m.html">F_TO_M</a><span class="token operator">: </span><a href="https://kotlinlang.org/api/core/kotlin-stdlib/kotlin/-double/index.html">Double</a><span class="token operator"> = </span><span class="token constant">0.3048</span></div><div class="brief "><p class="paragraph">Represents the ratio of a foot to a meter.</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="1515279404%2FProperties%2F1812980877" anchor-label="G_TO_LB" id="1515279404%2FProperties%2F1812980877" data-filterable-set=":koma-core/commonMain"></a>
+          <div class="table-row" data-filterable-current=":koma-core/commonMain" data-filterable-set=":koma-core/commonMain">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-g_-t-o_-l-b.html"><span>G_</span><wbr><span>TO_</span><wbr><span>LB</span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1515279404%2FProperties%2F1812980877"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":koma-core/commonMain"><div class="symbol monospace"><span class="token keyword">const </span><span class="token keyword">val </span><a href="-g_-t-o_-l-b.html">G_TO_LB</a><span class="token operator">: </span><a href="https://kotlinlang.org/api/core/kotlin-stdlib/kotlin/-double/index.html">Double</a><span class="token operator"> = </span><span class="token constant">0.00220462</span></div><div class="brief "><p class="paragraph">Represents the ratio of a gram to a pound.</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-404160907%2FProperties%2F1812980877" anchor-label="H_TO_D" id="-404160907%2FProperties%2F1812980877" data-filterable-set=":koma-core/commonMain"></a>
+          <div class="table-row" data-filterable-current=":koma-core/commonMain" data-filterable-set=":koma-core/commonMain">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-h_-t-o_-d.html"><span>H_</span><wbr><span>TO_</span><wbr><span>D</span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-404160907%2FProperties%2F1812980877"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":koma-core/commonMain"><div class="symbol monospace"><span class="token keyword">const </span><span class="token keyword">val </span><a href="-h_-t-o_-d.html">H_TO_D</a><span class="token operator">: </span><a href="https://kotlinlang.org/api/core/kotlin-stdlib/kotlin/-double/index.html">Double</a><span class="token operator"> = </span><span class="token constant">0.041666666666667</span></div><div class="brief "><p class="paragraph">Represents the ratio of an hour to a day.</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="145460551%2FProperties%2F1812980877" anchor-label="H_TO_MIN" id="145460551%2FProperties%2F1812980877" data-filterable-set=":koma-core/commonMain"></a>
+          <div class="table-row" data-filterable-current=":koma-core/commonMain" data-filterable-set=":koma-core/commonMain">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-h_-t-o_-m-i-n.html"><span>H_</span><wbr><span>TO_</span><wbr><span>MIN</span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="145460551%2FProperties%2F1812980877"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":koma-core/commonMain"><div class="symbol monospace"><span class="token keyword">const </span><span class="token keyword">val </span><a href="-h_-t-o_-m-i-n.html">H_TO_MIN</a><span class="token operator">: </span><a href="https://kotlinlang.org/api/core/kotlin-stdlib/kotlin/-int/index.html">Int</a><span class="token operator"> = </span><span class="token constant">60</span></div><div class="brief "><p class="paragraph">Represents the ratio of an hour to a minute.</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="1688438104%2FProperties%2F1812980877" anchor-label="IN_TO_CM" id="1688438104%2FProperties%2F1812980877" data-filterable-set=":koma-core/commonMain"></a>
+          <div class="table-row" data-filterable-current=":koma-core/commonMain" data-filterable-set=":koma-core/commonMain">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-i-n_-t-o_-c-m.html"><span>IN_</span><wbr><span>TO_</span><wbr><span>CM</span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1688438104%2FProperties%2F1812980877"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":koma-core/commonMain"><div class="symbol monospace"><span class="token keyword">const </span><span class="token keyword">val </span><a href="-i-n_-t-o_-c-m.html">IN_TO_CM</a><span class="token operator">: </span><a href="https://kotlinlang.org/api/core/kotlin-stdlib/kotlin/-double/index.html">Double</a><span class="token operator"> = </span><span class="token constant">2.54</span></div><div class="brief "><p class="paragraph">Represents the ratio of an inch to a centimeter.</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="629258411%2FProperties%2F1812980877" anchor-label="IN_TO_M" id="629258411%2FProperties%2F1812980877" data-filterable-set=":koma-core/commonMain"></a>
+          <div class="table-row" data-filterable-current=":koma-core/commonMain" data-filterable-set=":koma-core/commonMain">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-i-n_-t-o_-m.html"><span>IN_</span><wbr><span>TO_</span><wbr><span>M</span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="629258411%2FProperties%2F1812980877"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":koma-core/commonMain"><div class="symbol monospace"><span class="token keyword">const </span><span class="token keyword">val </span><a href="-i-n_-t-o_-m.html">IN_TO_M</a><span class="token operator">: </span><a href="https://kotlinlang.org/api/core/kotlin-stdlib/kotlin/-double/index.html">Double</a><span class="token operator"> = </span><span class="token constant">0.0254</span></div><div class="brief "><p class="paragraph">Represents the ratio of an inch to a meter.</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-1769717067%2FProperties%2F1812980877" anchor-label="KG_TO_LB" id="-1769717067%2FProperties%2F1812980877" data-filterable-set=":koma-core/commonMain"></a>
+          <div class="table-row" data-filterable-current=":koma-core/commonMain" data-filterable-set=":koma-core/commonMain">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-k-g_-t-o_-l-b.html"><span>KG_</span><wbr><span>TO_</span><wbr><span>LB</span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1769717067%2FProperties%2F1812980877"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":koma-core/commonMain"><div class="symbol monospace"><span class="token keyword">const </span><span class="token keyword">val </span><a href="-k-g_-t-o_-l-b.html">KG_TO_LB</a><span class="token operator">: </span><a href="https://kotlinlang.org/api/core/kotlin-stdlib/kotlin/-double/index.html">Double</a><span class="token operator"> = </span><span class="token constant">2.20462</span></div><div class="brief "><p class="paragraph">Represents the ratio of a kilogram to a pound.</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="1859600352%2FProperties%2F1812980877" anchor-label="KG_TO_OZ" id="1859600352%2FProperties%2F1812980877" data-filterable-set=":koma-core/commonMain"></a>
+          <div class="table-row" data-filterable-current=":koma-core/commonMain" data-filterable-set=":koma-core/commonMain">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-k-g_-t-o_-o-z.html"><span>KG_</span><wbr><span>TO_</span><wbr><span>OZ</span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1859600352%2FProperties%2F1812980877"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":koma-core/commonMain"><div class="symbol monospace"><span class="token keyword">const </span><span class="token keyword">val </span><a href="-k-g_-t-o_-o-z.html">KG_TO_OZ</a><span class="token operator">: </span><a href="https://kotlinlang.org/api/core/kotlin-stdlib/kotlin/-double/index.html">Double</a><span class="token operator"> = </span><span class="token constant">35.274</span></div><div class="brief "><p class="paragraph">Represents the ratio of a kilogram to an ounce.</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="993858231%2FProperties%2F1812980877" anchor-label="KM_TO_MILES" id="993858231%2FProperties%2F1812980877" data-filterable-set=":koma-core/commonMain"></a>
+          <div class="table-row" data-filterable-current=":koma-core/commonMain" data-filterable-set=":koma-core/commonMain">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-k-m_-t-o_-m-i-l-e-s.html"><span>KM_</span><wbr><span>TO_</span><wbr><span>MILES</span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="993858231%2FProperties%2F1812980877"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":koma-core/commonMain"><div class="symbol monospace"><span class="token keyword">const </span><span class="token keyword">val </span><a href="-k-m_-t-o_-m-i-l-e-s.html">KM_TO_MILES</a><span class="token operator">: </span><a href="https://kotlinlang.org/api/core/kotlin-stdlib/kotlin/-double/index.html">Double</a><span class="token operator"> = </span><span class="token constant">0.62137119223733</span></div><div class="brief "><p class="paragraph">Represents the ratio of a kilometer to a mile.</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-1206836606%2FProperties%2F1812980877" anchor-label="LB_TO_G" id="-1206836606%2FProperties%2F1812980877" data-filterable-set=":koma-core/commonMain"></a>
+          <div class="table-row" data-filterable-current=":koma-core/commonMain" data-filterable-set=":koma-core/commonMain">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-l-b_-t-o_-g.html"><span>LB_</span><wbr><span>TO_</span><wbr><span>G</span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1206836606%2FProperties%2F1812980877"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":koma-core/commonMain"><div class="symbol monospace"><span class="token keyword">const </span><span class="token keyword">val </span><a href="-l-b_-t-o_-g.html">LB_TO_G</a><span class="token operator">: </span><a href="https://kotlinlang.org/api/core/kotlin-stdlib/kotlin/-double/index.html">Double</a><span class="token operator"> = </span><span class="token constant">453.592</span></div><div class="brief "><p class="paragraph">Represents the ratio of a pound to a gram.</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="995642933%2FProperties%2F1812980877" anchor-label="LB_TO_KG" id="995642933%2FProperties%2F1812980877" data-filterable-set=":koma-core/commonMain"></a>
+          <div class="table-row" data-filterable-current=":koma-core/commonMain" data-filterable-set=":koma-core/commonMain">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-l-b_-t-o_-k-g.html"><span>LB_</span><wbr><span>TO_</span><wbr><span>KG</span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="995642933%2FProperties%2F1812980877"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":koma-core/commonMain"><div class="symbol monospace"><span class="token keyword">const </span><span class="token keyword">val </span><a href="-l-b_-t-o_-k-g.html">LB_TO_KG</a><span class="token operator">: </span><a href="https://kotlinlang.org/api/core/kotlin-stdlib/kotlin/-double/index.html">Double</a><span class="token operator"> = </span><span class="token constant">0.453592</span></div><div class="brief "><p class="paragraph">Represents the ratio of a pound to a kilogram.</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="1411878392%2FProperties%2F1812980877" anchor-label="M_TO_F" id="1411878392%2FProperties%2F1812980877" data-filterable-set=":koma-core/commonMain"></a>
+          <div class="table-row" data-filterable-current=":koma-core/commonMain" data-filterable-set=":koma-core/commonMain">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-m_-t-o_-f.html"><span>M_</span><wbr><span>TO_</span><wbr><span>F</span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1411878392%2FProperties%2F1812980877"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":koma-core/commonMain"><div class="symbol monospace"><span class="token keyword">const </span><span class="token keyword">val </span><a href="-m_-t-o_-f.html">M_TO_F</a><span class="token operator">: </span><a href="https://kotlinlang.org/api/core/kotlin-stdlib/kotlin/-double/index.html">Double</a><span class="token operator"> = </span><span class="token constant">3.28084</span></div><div class="brief "><p class="paragraph">Represents the ratio of a meter to a foot.</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-173046121%2FProperties%2F1812980877" anchor-label="M_TO_IN" id="-173046121%2FProperties%2F1812980877" data-filterable-set=":koma-core/commonMain"></a>
+          <div class="table-row" data-filterable-current=":koma-core/commonMain" data-filterable-set=":koma-core/commonMain">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-m_-t-o_-i-n.html"><span>M_</span><wbr><span>TO_</span><wbr><span>IN</span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-173046121%2FProperties%2F1812980877"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":koma-core/commonMain"><div class="symbol monospace"><span class="token keyword">const </span><span class="token keyword">val </span><a href="-m_-t-o_-i-n.html">M_TO_IN</a><span class="token operator">: </span><a href="https://kotlinlang.org/api/core/kotlin-stdlib/kotlin/-double/index.html">Double</a><span class="token operator"> = </span><span class="token constant">39.3701</span></div><div class="brief "><p class="paragraph">Represents the ratio of a meter to an inch.</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="2017678193%2FProperties%2F1812980877" anchor-label="M_TO_YD" id="2017678193%2FProperties%2F1812980877" data-filterable-set=":koma-core/commonMain"></a>
+          <div class="table-row" data-filterable-current=":koma-core/commonMain" data-filterable-set=":koma-core/commonMain">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-m_-t-o_-y-d.html"><span>M_</span><wbr><span>TO_</span><wbr><span>YD</span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="2017678193%2FProperties%2F1812980877"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":koma-core/commonMain"><div class="symbol monospace"><span class="token keyword">const </span><span class="token keyword">val </span><a href="-m_-t-o_-y-d.html">M_TO_YD</a><span class="token operator">: </span><a href="https://kotlinlang.org/api/core/kotlin-stdlib/kotlin/-double/index.html">Double</a><span class="token operator"> = </span><span class="token constant">1.09361</span></div><div class="brief "><p class="paragraph">Represents the ratio of a meter to a yard.</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-385614903%2FProperties%2F1812980877" anchor-label="MILES_TO_KM" id="-385614903%2FProperties%2F1812980877" data-filterable-set=":koma-core/commonMain"></a>
+          <div class="table-row" data-filterable-current=":koma-core/commonMain" data-filterable-set=":koma-core/commonMain">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-m-i-l-e-s_-t-o_-k-m.html"><span>MILES_</span><wbr><span>TO_</span><wbr><span>KM</span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-385614903%2FProperties%2F1812980877"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":koma-core/commonMain"><div class="symbol monospace"><span class="token keyword">const </span><span class="token keyword">val </span><a href="-m-i-l-e-s_-t-o_-k-m.html">MILES_TO_KM</a><span class="token operator">: </span><a href="https://kotlinlang.org/api/core/kotlin-stdlib/kotlin/-double/index.html">Double</a><span class="token operator"> = </span><span class="token constant">1.609344</span></div><div class="brief "><p class="paragraph">Represents the ratio of a mile to a kilometer.</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="1411743643%2FProperties%2F1812980877" anchor-label="MIN_TO_H" id="1411743643%2FProperties%2F1812980877" data-filterable-set=":koma-core/commonMain"></a>
+          <div class="table-row" data-filterable-current=":koma-core/commonMain" data-filterable-set=":koma-core/commonMain">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-m-i-n_-t-o_-h.html"><span>MIN_</span><wbr><span>TO_</span><wbr><span>H</span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1411743643%2FProperties%2F1812980877"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":koma-core/commonMain"><div class="symbol monospace"><span class="token keyword">const </span><span class="token keyword">val </span><a href="-m-i-n_-t-o_-h.html">MIN_TO_H</a><span class="token operator">: </span><a href="https://kotlinlang.org/api/core/kotlin-stdlib/kotlin/-double/index.html">Double</a><span class="token operator"> = </span><span class="token constant">0.016666666666667</span></div><div class="brief "><p class="paragraph">Represents the ratio of a minute to an hour.</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="1752961520%2FProperties%2F1812980877" anchor-label="MIN_TO_S" id="1752961520%2FProperties%2F1812980877" data-filterable-set=":koma-core/commonMain"></a>
+          <div class="table-row" data-filterable-current=":koma-core/commonMain" data-filterable-set=":koma-core/commonMain">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-m-i-n_-t-o_-s.html"><span>MIN_</span><wbr><span>TO_</span><wbr><span>S</span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1752961520%2FProperties%2F1812980877"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":koma-core/commonMain"><div class="symbol monospace"><span class="token keyword">const </span><span class="token keyword">val </span><a href="-m-i-n_-t-o_-s.html">MIN_TO_S</a><span class="token operator">: </span><a href="https://kotlinlang.org/api/core/kotlin-stdlib/kotlin/-int/index.html">Int</a><span class="token operator"> = </span><span class="token constant">60</span></div><div class="brief "><p class="paragraph">Represents the ratio of a minute to a second.</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="1839775646%2FProperties%2F1812980877" anchor-label="MO_TO_W" id="1839775646%2FProperties%2F1812980877" data-filterable-set=":koma-core/commonMain"></a>
+          <div class="table-row" data-filterable-current=":koma-core/commonMain" data-filterable-set=":koma-core/commonMain">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-m-o_-t-o_-w.html"><span>MO_</span><wbr><span>TO_</span><wbr><span>W</span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1839775646%2FProperties%2F1812980877"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":koma-core/commonMain"><div class="symbol monospace"><span class="token keyword">const </span><span class="token keyword">val </span><a href="-m-o_-t-o_-w.html">MO_TO_W</a><span class="token operator">: </span><a href="https://kotlinlang.org/api/core/kotlin-stdlib/kotlin/-double/index.html">Double</a><span class="token operator"> = </span><span class="token constant">4.3452380952381</span></div><div class="brief "><p class="paragraph">Represents the ratio of a month to a week.</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="1901815260%2FProperties%2F1812980877" anchor-label="MO_TO_Y" id="1901815260%2FProperties%2F1812980877" data-filterable-set=":koma-core/commonMain"></a>
+          <div class="table-row" data-filterable-current=":koma-core/commonMain" data-filterable-set=":koma-core/commonMain">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-m-o_-t-o_-y.html"><span>MO_</span><wbr><span>TO_</span><wbr><span>Y</span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1901815260%2FProperties%2F1812980877"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":koma-core/commonMain"><div class="symbol monospace"><span class="token keyword">const </span><span class="token keyword">val </span><a href="-m-o_-t-o_-y.html">MO_TO_Y</a><span class="token operator">: </span><a href="https://kotlinlang.org/api/core/kotlin-stdlib/kotlin/-double/index.html">Double</a><span class="token operator"> = </span><span class="token constant">0.083333333333333</span></div><div class="brief "><p class="paragraph">Represents the ratio of a month to a year.</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="2036694816%2FProperties%2F1812980877" anchor-label="OZ_TO_KG" id="2036694816%2FProperties%2F1812980877" data-filterable-set=":koma-core/commonMain"></a>
+          <div class="table-row" data-filterable-current=":koma-core/commonMain" data-filterable-set=":koma-core/commonMain">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-o-z_-t-o_-k-g.html"><span>OZ_</span><wbr><span>TO_</span><wbr><span>KG</span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="2036694816%2FProperties%2F1812980877"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":koma-core/commonMain"><div class="symbol monospace"><span class="token keyword">const </span><span class="token keyword">val </span><a href="-o-z_-t-o_-k-g.html">OZ_TO_KG</a><span class="token operator">: </span><a href="https://kotlinlang.org/api/core/kotlin-stdlib/kotlin/-double/index.html">Double</a><span class="token operator"> = </span><span class="token constant">0.0283495</span></div><div class="brief "><p class="paragraph">Represents the ratio of an ounce to a kilogram.</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="1577889619%2FProperties%2F1812980877" anchor-label="PI" id="1577889619%2FProperties%2F1812980877" data-filterable-set=":koma-core/commonMain"></a>
+          <div class="table-row" data-filterable-current=":koma-core/commonMain" data-filterable-set=":koma-core/commonMain">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-p-i.html"><span><span>PI</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1577889619%2FProperties%2F1812980877"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":koma-core/commonMain"><div class="symbol monospace"><span class="token keyword">const </span><span class="token keyword">val </span><a href="-p-i.html">PI</a><span class="token operator">: </span><a href="https://kotlinlang.org/api/core/kotlin-stdlib/kotlin/-double/index.html">Double</a><span class="token operator"> = </span><span class="token constant">3.141592653589793</span></div><div class="brief "><p class="paragraph">Represents <code class="lang-kotlin">π</code>, the ratio of a circle's circumference to its diameter.</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="551827996%2FProperties%2F1812980877" anchor-label="PLANCK_CONSTANT" id="551827996%2FProperties%2F1812980877" data-filterable-set=":koma-core/commonMain"></a>
+          <div class="table-row" data-filterable-current=":koma-core/commonMain" data-filterable-set=":koma-core/commonMain">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-p-l-a-n-c-k_-c-o-n-s-t-a-n-t.html"><span>PLANCK_</span><wbr><span>CONSTANT</span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="551827996%2FProperties%2F1812980877"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":koma-core/commonMain"><div class="symbol monospace"><span class="token keyword">const </span><span class="token keyword">val </span><a href="-p-l-a-n-c-k_-c-o-n-s-t-a-n-t.html">PLANCK_CONSTANT</a><span class="token operator">: </span><a href="https://kotlinlang.org/api/core/kotlin-stdlib/kotlin/-double/index.html">Double</a><span class="token operator"> = </span><span class="token constant">6.62607015E-34</span></div><div class="brief "><p class="paragraph">Represents planck's constant, the quantum of electromagnetic action.</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="1894818130%2FProperties%2F1812980877" anchor-label="S_TO_MIN" id="1894818130%2FProperties%2F1812980877" data-filterable-set=":koma-core/commonMain"></a>
+          <div class="table-row" data-filterable-current=":koma-core/commonMain" data-filterable-set=":koma-core/commonMain">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-s_-t-o_-m-i-n.html"><span>S_</span><wbr><span>TO_</span><wbr><span>MIN</span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1894818130%2FProperties%2F1812980877"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":koma-core/commonMain"><div class="symbol monospace"><span class="token keyword">const </span><span class="token keyword">val </span><a href="-s_-t-o_-m-i-n.html">S_TO_MIN</a><span class="token operator">: </span><a href="https://kotlinlang.org/api/core/kotlin-stdlib/kotlin/-double/index.html">Double</a><span class="token operator"> = </span><span class="token constant">0.016666666666667</span></div><div class="brief "><p class="paragraph">Represents the ratio of a second to a minute.</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="315164102%2FProperties%2F1812980877" anchor-label="SPEED_OF_LIGHT" id="315164102%2FProperties%2F1812980877" data-filterable-set=":koma-core/commonMain"></a>
+          <div class="table-row" data-filterable-current=":koma-core/commonMain" data-filterable-set=":koma-core/commonMain">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-s-p-e-e-d_-o-f_-l-i-g-h-t.html"><span>SPEED_</span><wbr><span>OF_</span><wbr><span>LIGHT</span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="315164102%2FProperties%2F1812980877"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":koma-core/commonMain"><div class="symbol monospace"><span class="token keyword">const </span><span class="token keyword">val </span><a href="-s-p-e-e-d_-o-f_-l-i-g-h-t.html">SPEED_OF_LIGHT</a><span class="token operator">: </span><a href="https://kotlinlang.org/api/core/kotlin-stdlib/kotlin/-int/index.html">Int</a></div><div class="brief "><p class="paragraph">Represents the speed of light in a vacuum in meters per second.</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="1965075437%2FProperties%2F1812980877" anchor-label="SPEED_OF_SOUND" id="1965075437%2FProperties%2F1812980877" data-filterable-set=":koma-core/commonMain"></a>
+          <div class="table-row" data-filterable-current=":koma-core/commonMain" data-filterable-set=":koma-core/commonMain">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-s-p-e-e-d_-o-f_-s-o-u-n-d.html"><span>SPEED_</span><wbr><span>OF_</span><wbr><span>SOUND</span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1965075437%2FProperties%2F1812980877"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":koma-core/commonMain"><div class="symbol monospace"><span class="token keyword">const </span><span class="token keyword">val </span><a href="-s-p-e-e-d_-o-f_-s-o-u-n-d.html">SPEED_OF_SOUND</a><span class="token operator">: </span><a href="https://kotlinlang.org/api/core/kotlin-stdlib/kotlin/-int/index.html">Int</a><span class="token operator"> = </span><span class="token constant">343</span></div><div class="brief "><p class="paragraph">Represents the speed of sound in dry air at 20 degrees Celsius in meters per second.</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="562870852%2FProperties%2F1812980877" anchor-label="W_TO_D" id="562870852%2FProperties%2F1812980877" data-filterable-set=":koma-core/commonMain"></a>
+          <div class="table-row" data-filterable-current=":koma-core/commonMain" data-filterable-set=":koma-core/commonMain">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-w_-t-o_-d.html"><span>W_</span><wbr><span>TO_</span><wbr><span>D</span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="562870852%2FProperties%2F1812980877"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":koma-core/commonMain"><div class="symbol monospace"><span class="token keyword">const </span><span class="token keyword">val </span><a href="-w_-t-o_-d.html">W_TO_D</a><span class="token operator">: </span><a href="https://kotlinlang.org/api/core/kotlin-stdlib/kotlin/-int/index.html">Int</a><span class="token operator"> = </span><span class="token constant">7</span></div><div class="brief "><p class="paragraph">Represents the ratio of a week to a day.</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="783260528%2FProperties%2F1812980877" anchor-label="W_TO_MO" id="783260528%2FProperties%2F1812980877" data-filterable-set=":koma-core/commonMain"></a>
+          <div class="table-row" data-filterable-current=":koma-core/commonMain" data-filterable-set=":koma-core/commonMain">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-w_-t-o_-m-o.html"><span>W_</span><wbr><span>TO_</span><wbr><span>MO</span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="783260528%2FProperties%2F1812980877"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":koma-core/commonMain"><div class="symbol monospace"><span class="token keyword">const </span><span class="token keyword">val </span><a href="-w_-t-o_-m-o.html">W_TO_MO</a><span class="token operator">: </span><a href="https://kotlinlang.org/api/core/kotlin-stdlib/kotlin/-double/index.html">Double</a><span class="token operator"> = </span><span class="token constant">0.23013698630137</span></div><div class="brief "><p class="paragraph">Represents the ratio of a week to a month.</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="1058020142%2FProperties%2F1812980877" anchor-label="Y_TO_MO" id="1058020142%2FProperties%2F1812980877" data-filterable-set=":koma-core/commonMain"></a>
+          <div class="table-row" data-filterable-current=":koma-core/commonMain" data-filterable-set=":koma-core/commonMain">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-y_-t-o_-m-o.html"><span>Y_</span><wbr><span>TO_</span><wbr><span>MO</span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1058020142%2FProperties%2F1812980877"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":koma-core/commonMain"><div class="symbol monospace"><span class="token keyword">const </span><span class="token keyword">val </span><a href="-y_-t-o_-m-o.html">Y_TO_MO</a><span class="token operator">: </span><a href="https://kotlinlang.org/api/core/kotlin-stdlib/kotlin/-int/index.html">Int</a><span class="token operator"> = </span><span class="token constant">12</span></div><div class="brief "><p class="paragraph">Represents the ratio of a year to a month.</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-680664047%2FProperties%2F1812980877" anchor-label="YD_TO_M" id="-680664047%2FProperties%2F1812980877" data-filterable-set=":koma-core/commonMain"></a>
+          <div class="table-row" data-filterable-current=":koma-core/commonMain" data-filterable-set=":koma-core/commonMain">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-y-d_-t-o_-m.html"><span>YD_</span><wbr><span>TO_</span><wbr><span>M</span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-680664047%2FProperties%2F1812980877"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":koma-core/commonMain"><div class="symbol monospace"><span class="token keyword">const </span><span class="token keyword">val </span><a href="-y-d_-t-o_-m.html">YD_TO_M</a><span class="token operator">: </span><a href="https://kotlinlang.org/api/core/kotlin-stdlib/kotlin/-double/index.html">Double</a><span class="token operator"> = </span><span class="token constant">0.9144</span></div><div class="brief "><p class="paragraph">Represents the ratio of a yard to a meter.</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    <div class="footer">
+        <a href="#content" id="go-to-top-link" class="footer--button footer--button_go-to-top"></a>
+        <span>(c) Calculus Games</span>
+        <span class="pull-right">
+            <span>Generated by </span>
+            <a class="footer--link footer--link_external" href="https://github.com/Kotlin/dokka">
+                <span>dokka</span>
+            </a>
+        </span>
+    </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

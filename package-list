@@ -1,0 +1,7 @@
+$dokka.format:html-v1
+$dokka.linkExtension:html
+
+module:koma-core
+xyz.calcugames.koma
+xyz.calcugames.koma.algebra
+xyz.calcugames.koma.constants
