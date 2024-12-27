@@ -19,6 +19,7 @@ allprojects {
     description = "Kotlin Multiplatform Mathematics Library"
 
     apply<SigningPlugin>()
+    apply<DokkaPlugin>()
     apply(plugin = "com.vanniktech.maven.publish")
     apply(plugin = "maven-publish")
 
@@ -135,7 +136,6 @@ allprojects {
 
 subprojects {
     apply(plugin = "org.jetbrains.kotlin.multiplatform")
-    apply<DokkaPlugin>()
 
     tasks {
         withType<Test> {
@@ -168,8 +168,7 @@ subprojects {
     }
 }
 
-tasks {
-    withType<DokkaMultiModuleTask> {
-        outputDirectory = layout.buildDirectory.dir("dokka")
-    }
+dependencies {
+    dokka(project(":koma-core"))
+    dokka(project(":koma-eval"))
 }

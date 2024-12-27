@@ -133,7 +133,7 @@ jobs:
       - name: Change Permissions
         run: chmod +x ./gradlew
       - name: Build Dokka
-        run: ./gradlew dokkaHtml
+        run: ./gradlew dokkaGenerate
       - name: Deploy Dokka
         run: bash dokka.sh ${GITHUB_SHA::7}
 
