@@ -71,6 +71,8 @@ jobs:
         run: chmod +x ./gradlew
       - name: Build with Gradle
         run: ./gradlew assemble
+      - name: Stop Gradle
+        run: ./gradlew --stop
 
   test:
     runs-on: macos-latest
