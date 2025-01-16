@@ -5,3 +5,6 @@ module:koma-core
 xyz.calcugames.koma
 xyz.calcugames.koma.algebra
 xyz.calcugames.koma.constants
+module:koma-eval
+xyz.calcugames.koma
+xyz.calcugames.koma.algebra
