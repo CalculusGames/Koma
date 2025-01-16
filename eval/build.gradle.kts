@@ -24,6 +24,8 @@ kotlin {
                     timeout = "10m"
                 }
             }
+
+            useCommonJs()
         }
         nodejs {
             testTask {
@@ -84,6 +86,12 @@ kotlin {
     watchosArm32()
     watchosArm64()
     watchosDeviceArm64()
+
+    sourceSets {
+        commonMain.dependencies {
+            implementation(project(":koma-core"))
+        }
+    }
 }
 
 android {

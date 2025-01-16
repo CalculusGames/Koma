@@ -24,6 +24,8 @@ kotlin {
                     timeout = "10m"
                 }
             }
+
+            useCommonJs()
         }
         nodejs {
             testTask {
