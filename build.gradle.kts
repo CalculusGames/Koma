@@ -3,8 +3,8 @@ import org.jetbrains.dokka.gradle.DokkaMultiModuleTask
 import org.jetbrains.dokka.gradle.DokkaPlugin
 
 plugins {
-    kotlin("multiplatform") version "2.1.0" apply false
-    id("com.android.library") version "8.7.3" apply false
+    kotlin("multiplatform") version "2.1.10" apply false
+    id("com.android.library") version "8.8.1" apply false
     id("org.jetbrains.dokka") version "2.0.0"
     id("com.vanniktech.maven.publish") version "0.30.0"
 
